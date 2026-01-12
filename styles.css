@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.NavigatieBalk {
+    overflow: visible;
+    background: rgba(221, 221, 221, 0);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.NavigatieBalk a {
+  color: rgba(0, 0, 0, 0.729);
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 20px;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 80px;
+  margin-left: auto;
+  padding: 5px 20px;
+}
+
+.searchbar {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 10px;
+  width: 600px;
+  font-size: 16px;
+  outline: 2px solid rgba(0, 0, 0, 0.049);
+}
